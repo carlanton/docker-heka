@@ -1,2 +1,3 @@
 FROM alpine:3.2
 COPY heka /usr/
+CMD /usr/bin/hekad
